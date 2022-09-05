@@ -1,3 +1,17 @@
+#!/bin/bash
+
+# Created from the original package by
+
+# Disable various shellcheck rules that produce false positives in this file.
+# Repository rules should be added to the .shellcheckrc file located in the
+# repository root directory, see https://github.com/koalaman/shellcheck/wiki
+# and https://archiv8.github.io for further information.
+# shellcheck disable=SC2034,SC2154
+# [ToDo]: Add files: User documentation
+# [ToDo]: Add files: Tooling
+# [FixMe]: Namcap warnings and errors
+
+
 # Maintainer: Nocifer <apmichalopoulos at gmail dot com>
 # Contributor: Tod Jackson <tod.jackson@gmail.com>
 # Contributor: tobias <tobias@archlinux.org>
