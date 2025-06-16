@@ -48,6 +48,7 @@ sha512sums=(
     )
 
 build() {
+    export CFLAGS="$CFLAGS -std=gnu89"
     cd ${srcdir}/${_relname}/build/generic
 
     export CC="gcc -m32"
